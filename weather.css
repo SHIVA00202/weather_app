@@ -1,0 +1,78 @@
+/* Apply a background gradient */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the main weather box */
+.box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    width: 350px;
+    margin: 100px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Input field */
+input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Search button */
+button {
+    padding: 10px 15px;
+    border: none;
+    background: #ff9800;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #e68a00;
+}
+
+/* Weather details */
+h1 {
+    font-size: 45px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+.data {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+/* Weather icon */
+img {
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .box {
+        width: 90%;
+    }
+
+    input {
+        width: 80%;
+    }
+}

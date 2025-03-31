@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="box">
+        <input id="search" type="text" value="Ranchi">
+        <button id="searchButton" onclick="getData()">Search</button>
+        <div>
+            <h1 id="temp">--<sup>°C</sup></h1>
+            <p style="font-size: 20px; text-align: center; color: yellow;">Degree Celsius</p>
+            <p class="data">Sea level: <span id="ws">--</span> m</p>
+            <p class="data">Humidity: <span id="hmdty">--</span>%</p>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <img width="400px" src="weather.png" alt="Weather Icon">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
